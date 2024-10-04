@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Set this to the branch you want to use for deployment
+      - main  #main branch used for deployment
 
 jobs:
   build:
@@ -16,16 +16,16 @@ jobs:
     - name: Setup Node.js environment
       uses: actions/setup-node@v3
       with:
-        node-version: '16'
+        node-version: '20'  # Using Node.js 20
 
     - name: Install dependencies
       run: npm install
 
     - name: Build project
-      run: npm run build # This step is optional if this is a static site with no build steps
+      run: npm run build # Optional in case a build step is required in future
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./  # Adjust this path to the directory with HTML file (e.g., `./build` for React)
+        publish_dir: ./  # in future ddjust this to the build directory (e.g., `./dist` or `./build`)
