@@ -3,32 +3,26 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # The branch to deploy from
+      - main
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v2
 
-    #- name: Setup Node.js environment
-    #  uses: actions/setup-node@v3
-    #  with:
-    #    node-version: '20'  # Ensuring Node.js 20 is used
+    - name: Setup Node.js environment
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'  # otherwise Node.js 20
 
-    #- name: Install dependencies
-    #  run: npm install
-
-    - name: List directory contents for debugging
-      run: ls -R
-
-    #- name: Build project
-    #  run: npm run build || echo "Build failed" # Optional if there's a build step
+    - name: Build project
+      run: npm install && npm run build
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./  # Adjust this to your build directory if applicable
+        publish_dir: ./ 
