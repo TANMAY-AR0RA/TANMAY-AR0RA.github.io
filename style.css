@@ -42,8 +42,8 @@ h2 {
 }
 #section {
     display: block;
-    /* flex-wrap: wrap; */
-    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 footer {
     text-align: center;
