@@ -13,19 +13,19 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Setup Node.js environment
-      uses: actions/setup-node@v3
-      with:
-        node-version: '20'  # Ensuring Node.js 20 is used
+    #- name: Setup Node.js environment
+    #  uses: actions/setup-node@v3
+    #  with:
+    #    node-version: '20'  # Ensuring Node.js 20 is used
 
-    - name: Install dependencies
-      run: npm install
+    #- name: Install dependencies
+    #  run: npm install
 
     - name: List directory contents for debugging
       run: ls -R
 
-    - name: Build project
-      run: npm run build || echo "Build failed" # Optional if there's a build step
+    #- name: Build project
+    #  run: npm run build || echo "Build failed" # Optional if there's a build step
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
