@@ -2,10 +2,10 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className="p-10 flex flex-col items-center justify-center min-h-screen text-center bg-cover bg-center bg-no-repeat"
+    <div className="flex flex-col items-center justify-center min-h-screen bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('images/Background.jpg')" }}>
-      <div className="bg-black bg-opacity-50 p-10 rounded-lg max-w-4xl mx-auto">
-      <h1 className="text-5xl font-bold text-center">Experience</h1>
+      <div className="bg-black bg-opacity-50 p-10 rounded-lg max-w-4xl  mx-auto">
+      <h1 className="text-5xl font-bold">Experience</h1>
       </div>
       <div className="mt-4 bg-black bg-opacity-50 p-10 rounded-lg max-w-4xl mx-auto">
           <h3 className="text-xl font-medium">UCF-IT | Software Engineering Intern - Enterprise Infrastructure (Aug 2024 - Present)</h3>

@@ -16,7 +16,7 @@ const projects = [
   {
     title: "Stock Management System (ERP)",
     description: "Developed a platform for organizations to trace inventory, stock levels, sales, reports, and track the purchasing process.",
-    image: "/images/stock_management.png",
+    image: "/images/stock-management.png",
     link: "https://github.com/yourusername/stock-management"
   },
   {
@@ -30,14 +30,14 @@ const projects = [
 const Projects = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center min-h-screen text-center bg-cover bg-center bg-no-repeat"
+      className="flex flex-col items-center justify-center min-h-screen bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('images/Background.jpg')" }}
     >
     <div className="p-10">
     <div className="bg-black bg-opacity-50 p-10 rounded-lg max-w-4xl mx-auto">
       <h1 className="text-5xl font-bold text-center">Projects</h1>
     </div> 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 bg-black bg-opacity-50 p-10 rounded-lg max-w-4xl mx-auto">
         {projects.map((project, index) => (
           <a
             key={index}
