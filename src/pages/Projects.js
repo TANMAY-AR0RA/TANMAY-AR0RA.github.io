@@ -29,9 +29,14 @@ const projects = [
 
 const Projects = () => {
   return (
+    <div
+      className="flex flex-col items-center justify-center min-h-screen text-center bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: "url('images/Background.jpg')" }}
+    >
     <div className="p-10">
-      <h1 className="text-3xl font-bold text-center">Projects</h1>
-      <p className="mt-4 text-center">Here are some of my projects.</p>
+    <div className="bg-black bg-opacity-50 p-10 rounded-lg max-w-4xl mx-auto">
+      <h1 className="text-5xl font-bold text-center">Projects</h1>
+    </div> 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
         {projects.map((project, index) => (
           <a
@@ -47,6 +52,7 @@ const Projects = () => {
           </a>
         ))}
       </div>
+    </div>
     </div>
   );
 };
