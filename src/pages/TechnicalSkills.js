@@ -5,7 +5,7 @@ const TechnicalSkills = () => {
   return (
       <div className="mt-10">
         <h1 className="text-3xl font-bold">Technical Skills</h1>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mt-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-4">
           <div className="flex items-center space-x-2"><FaJava className="text-orange-600 text-2xl" /><span>Java</span></div>
           <div className="flex items-center space-x-2"><FaPython className="text-blue-500 text-2xl" /><span>Python</span></div>
           <div className="flex items-center space-x-2"><FaHtml5 className="text-red-500 text-2xl" /><span>HTML</span></div>
