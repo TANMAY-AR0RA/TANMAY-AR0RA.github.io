@@ -4,10 +4,10 @@ const Experience = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('images/Background.jpg')" }}>
-      <div className="bg-black bg-opacity-50 p-10 rounded-lg max-w-4xl  mx-auto">
+      <div className="p-10 rounded-lg max-w-4xl  mx-auto text-black">
       <h1 className="text-5xl font-bold">Experience</h1>
       </div>
-      <div className="mt-4 bg-black bg-opacity-50 p-10 rounded-lg max-w-4xl mx-auto">
+      <div className="mt-4 bg-white bg-opacity-50 p-10 rounded-lg max-w-4xl mx-auto text-black">
           <h3 className="text-xl font-medium">UCF-IT | Software Engineering Intern - Enterprise Infrastructure (Aug 2024 - Present)</h3>
           <ul className="list-disc pl-5 mt-2">
             <li>Developed a secure, full-stack internal web application hosted on GitHub Pages and Azure Functions.</li>
@@ -17,7 +17,7 @@ const Experience = () => {
             <li>Shadowed senior team members to manage F5 load balancers in Azure.</li>
           </ul>
         </div>
-        <div className="mt-4 bg-black bg-opacity-50 p-10 rounded-lg max-w-4xl mx-auto">
+        <div className="mt-4 bg-white bg-opacity-50 p-10 rounded-lg max-w-4xl mx-auto text-black">
           <h3 className="text-xl font-medium">University of Central Florida | Teaching Assistant (Jan 2024 - May 2025)</h3>
           <ul className="list-disc pl-5 mt-2">
             <li>Created and graded assignments and quizzes while supporting students.</li>
@@ -26,7 +26,7 @@ const Experience = () => {
           </ul>
         </div>
         
-        <div className="mt-4 bg-black bg-opacity-50 p-10 rounded-lg max-w-4xl mx-auto">
+        <div className="mt-4 bg-white bg-opacity-50 p-10 rounded-lg max-w-4xl mx-auto text-black">
           <h3 className="text-xl font-medium">Business Web Solutions, India | Software Engineer Intern (Jul 2022 - Sep 2022)</h3>
           <ul className="list-disc pl-5 mt-2">
             <li>Developed software solutions using JavaScript and React.js.</li>
