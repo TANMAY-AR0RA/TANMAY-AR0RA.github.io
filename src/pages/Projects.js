@@ -11,13 +11,13 @@ const projects = [
     title: "Fake News Detection Using Deep Learning",
     description: "Optimized CNN models for classifying real vs. fake news using NLP techniques. Implemented N-gram & sequence vectorization, improving accuracy over other baseline models.",
     image: "/images/FakeNews.png",
-    link: "https://github.com/yourusername/fake-news-detection"
+    link: "https://github.com/TANMAY-AR0RA/fake-news-detection"
   },
   {
     title: "Stock Management System (ERP)",
     description: "Developed a platform for organizations to trace inventory, stock levels, sales, reports, and track the purchasing process.",
     image: "/images/stock-management.png",
-    link: "https://github.com/yourusername/stock-management"
+    link: "https://github.com/TANMAY-AR0RA/stock-management"
   },
   {
     title: "Library Management System (LMS)",
@@ -34,21 +34,21 @@ const Projects = () => {
       style={{ backgroundImage: "url('images/Background.jpg')" }}
     >
     <div className="p-10">
-    <div className="bg-black bg-opacity-50 p-10 rounded-lg max-w-4xl mx-auto">
+    <div className="text-black p-10 rounded-lg max-w-4xl mx-auto">
       <h1 className="text-5xl font-bold text-center">Projects</h1>
     </div> 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 bg-black bg-opacity-50 p-10 rounded-lg max-w-4xl mx-auto">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 p-10 rounded-lg max-w-4xl mx-auto">
         {projects.map((project, index) => (
           <a
             key={index}
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="block bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out hover:shadow-xl"
+            className="block text-black bg-white p-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out hover:shadow-xl"
           >
             <img src={project.image} alt={project.title} className="w-full h-40 object-cover rounded-lg" />
-            <h2 className="text-xl font-semibold text-gray-900 dark:text-white mt-4">{project.title}</h2>
-            <p className="mt-2 text-gray-700 dark:text-gray-300">{project.description}</p>
+            <h2 className="text-xl font-semibold text-black mt-4">{project.title}</h2>
+            <p className="mt-2 text-black">{project.description}</p>
           </a>
         ))}
       </div>

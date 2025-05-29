@@ -11,8 +11,8 @@ const Resume = () => {
   };
 
   return (
-    <div className="p-10 flex flex-col items-center" style={{ backgroundImage: "url('images/Background.jpg')"}}>
-      <h1 className="text-5xl font-bold bg-black bg-opacity-50 p-10 rounded-lg">Resume</h1>
+    <div className="p-10 flex flex-col items-center" >
+      <h1 className="text-5xl font-bold bg-opacity-50 p-10 rounded-lg">Resume</h1>
       <button
         onClick={handleDownload}
         className="mt-6 bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300"
