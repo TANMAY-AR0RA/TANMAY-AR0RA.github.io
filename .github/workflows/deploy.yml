@@ -3,10 +3,10 @@ name: Deploy Portfolio to GitHub Pages
 on:
   push:
     branches:
-      - main  # Deploy when pushing to main branch
+      - main
 
 permissions:
-  contents: write  # Needed for pushing to gh-pages
+  contents: write
 
 jobs:
   deploy:
