@@ -27,11 +27,13 @@ const Experience = () => {
         </div>
         
         <div className="mt-4 bg-white bg-opacity-50 p-10 rounded-lg max-w-4xl mx-auto text-black">
-          <h3 className="text-xl font-medium">Business Web Solutions, India | Software Engineer Intern (Jul 2022 - Sep 2022)</h3>
+          <h3 className="text-xl font-medium">National Medico Agency, India | Software Engineer (Jul 2020 - Jul 2023)</h3>
           <ul className="list-disc pl-5 mt-2">
-            <li>Developed software solutions using JavaScript and React.js.</li>
-            <li>Built backend with Java in IntelliJ and optimized website performance.</li>
-            <li>Wrote clean, efficient, and well-documented code using HTML, CSS, and Bootstrap.</li>
+            <li>Built and maintained a custom ERP and inventory platform using Java, Spring Boot, and MySQL, streamlining stock tracking for 1,500+ products and reducing manual effort by 60%.</li>
+            <li>Developed a React.js portal for B2B clients to view products and send inquiries, cutting phone/email orders by 70%.</li>
+            <li>Created 10+ REST APIs with Spring Security and JWT auth, improving data control and access security.</li>
+            <li>Integrated features like PDF invoice generation, email alerts, and analytics dashboards, saving staff 4+ hours/week.</li>
+            <li>Collaborated with non-technical staff to prioritize features and enhance usability, leading to ~85% user satisfaction.</li>
           </ul>
         </div>
     </div>
