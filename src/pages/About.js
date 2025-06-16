@@ -23,7 +23,7 @@ const About = () => {
           Alongside this role, I have been a <strong>Teaching Assistant in the Computer Science department</strong> for the past year, helping students strengthen their understanding of algorithms and programming concepts.
         </p>
         <p className="text-lg mt-4 leading-relaxed">
-          Previously, I worked at a <strong>software company in India</strong>, where I gained valuable experience in <strong>full-stack web development</strong>, working with modern frameworks and development practices.
+          Previously, I've also worked as a <strong>software engineer</strong> at a company in India, focussing on <strong>full-stack web development</strong>, working with modern frameworks and development practices.
         </p>
         <p className="text-lg mt-4 leading-relaxed">
           I'm excited about opportunities that align with my <strong>skills and interests</strong>. I thrive on <strong>solving complex problems</strong>, and I look forward to contributing to impactful software projects while working on the <strong>Software Development Life Cycle (SDLC)</strong>.
