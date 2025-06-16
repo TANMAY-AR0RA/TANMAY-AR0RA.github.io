@@ -22,6 +22,7 @@ const Resume = () => {
       <iframe
         src="/TanmayArora_Resume.pdf"
         className="mt-6 w-full max-w-4xl h-[1000px] border rounded-lg shadow-lg"
+        title="Resume PDF Viewer"
       ></iframe>
       
     </div>
